@@ -1,20 +1,37 @@
-# 👾 Alien Invasion (Clone)
+# 👾 Alien Invasion Clone  
 
-A simple but fun **Alien Invasion game clone** built with **Python** and **Pygame**.  
-The goal is straightforward: control your spaceship, shoot down the aliens, and survive as long as you can. 🚀  
-
----
-
-## 🎮 Features
-- Smooth spaceship controls (move left, right, and fire bullets)
-- Alien fleet that advances and speeds up over time
-- Scoring system to track your progress
-- Game over and restart functionality
-- Classic arcade-style gameplay feel
+A fun **2D arcade-style game** built with Python’s `pygame` library. Inspired by the classic *Space Invaders*, this project is a clone of the **Alien Invasion** game from Eric Matthes' *Python Crash Course*.  
 
 ---
 
-## 🕹️ How to Play
-1. **Install dependencies**  
-   ```bash
-   pip install pygame
+## 🚀 Features  
+- Player-controlled spaceship with smooth movement.  
+- Laser bullets to shoot down alien fleets.  
+- Increasing difficulty with each wave.  
+- Game-over and restart mechanics.  
+- Simple yet engaging retro-style gameplay.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Python 3.x**  
+- **Pygame**  
+
+---
+
+## 📦 Installation  
+
+Clone the repository and install dependencies:  
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/alien-invasion-clone.git
+cd alien-invasion-clone
+
+# (Optional) Create virtual environment
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+
+# Install pygame
+pip install pygame
